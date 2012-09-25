@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1F07AD31611624D00F2B197 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F07AD21611624D00F2B197 /* Cocoa.framework */; };
+		F1F07AD51611624D00F2B197 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F07AD41611624D00F2B197 /* AppleScriptObjC.framework */; };
+		F1F07ADF1611624D00F2B197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1F07ADD1611624D00F2B197 /* InfoPlist.strings */; };
+		F1F07AE11611624D00F2B197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F07AE01611624D00F2B197 /* main.m */; };
+		F1F07AE51611624D00F2B197 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F1F07AE31611624D00F2B197 /* Credits.rtf */; };
+		F1F07AE71611624D00F2B197 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F1F07AE61611624D00F2B197 /* AppDelegate.applescript */; };
+		F1F07AEA1611624D00F2B197 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F07AE81611624D00F2B197 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1F07ACE1611624D00F2B197 /* Fitness Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F07AD21611624D00F2B197 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F1F07AD41611624D00F2B197 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		F1F07AD71611624D00F2B197 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F1F07AD81611624D00F2B197 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F1F07AD91611624D00F2B197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1F07ADC1611624D00F2B197 /* Fitness Apps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fitness Apps-Info.plist"; sourceTree = "<group>"; };
+		F1F07ADE1611624D00F2B197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1F07AE01611624D00F2B197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1F07AE21611624D00F2B197 /* Fitness Apps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitness Apps-Prefix.pch"; sourceTree = "<group>"; };
+		F1F07AE41611624D00F2B197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F1F07AE61611624D00F2B197 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		F1F07AE91611624D00F2B197 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F07ACB1611624D00F2B197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F07AD31611624D00F2B197 /* Cocoa.framework in Frameworks */,
+				F1F07AD51611624D00F2B197 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1F07AC31611624D00F2B197 = {
+			isa = PBXGroup;
+			children = (
+				F1F07ADA1611624D00F2B197 /* Fitness Apps */,
+				F1F07AD11611624D00F2B197 /* Frameworks */,
+				F1F07ACF1611624D00F2B197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1F07ACF1611624D00F2B197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1F07ACE1611624D00F2B197 /* Fitness Apps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F07AD11611624D00F2B197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1F07AD21611624D00F2B197 /* Cocoa.framework */,
+				F1F07AD41611624D00F2B197 /* AppleScriptObjC.framework */,
+				F1F07AD61611624D00F2B197 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1F07AD61611624D00F2B197 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1F07AD71611624D00F2B197 /* AppKit.framework */,
+				F1F07AD81611624D00F2B197 /* CoreData.framework */,
+				F1F07AD91611624D00F2B197 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F1F07ADA1611624D00F2B197 /* Fitness Apps */ = {
+			isa = PBXGroup;
+			children = (
+				F1F07AE61611624D00F2B197 /* AppDelegate.applescript */,
+				F1F07AE81611624D00F2B197 /* MainMenu.xib */,
+				F1F07ADB1611624D00F2B197 /* Supporting Files */,
+			);
+			path = "Fitness Apps";
+			sourceTree = "<group>";
+		};
+		F1F07ADB1611624D00F2B197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1F07ADC1611624D00F2B197 /* Fitness Apps-Info.plist */,
+				F1F07ADD1611624D00F2B197 /* InfoPlist.strings */,
+				F1F07AE01611624D00F2B197 /* main.m */,
+				F1F07AE21611624D00F2B197 /* Fitness Apps-Prefix.pch */,
+				F1F07AE31611624D00F2B197 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1F07ACD1611624D00F2B197 /* Fitness Apps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F07AED1611624D00F2B197 /* Build configuration list for PBXNativeTarget "Fitness Apps" */;
+			buildPhases = (
+				F1F07ACA1611624D00F2B197 /* Sources */,
+				F1F07ACB1611624D00F2B197 /* Frameworks */,
+				F1F07ACC1611624D00F2B197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness Apps";
+			productName = "Fitness Apps";
+			productReference = F1F07ACE1611624D00F2B197 /* Fitness Apps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F07AC51611624D00F2B197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = taolam;
+			};
+			buildConfigurationList = F1F07AC81611624D00F2B197 /* Build configuration list for PBXProject "Fitness Apps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1F07AC31611624D00F2B197;
+			productRefGroup = F1F07ACF1611624D00F2B197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F07ACD1611624D00F2B197 /* Fitness Apps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1F07ACC1611624D00F2B197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F07ADF1611624D00F2B197 /* InfoPlist.strings in Resources */,
+				F1F07AE51611624D00F2B197 /* Credits.rtf in Resources */,
+				F1F07AEA1611624D00F2B197 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1F07ACA1611624D00F2B197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F07AE11611624D00F2B197 /* main.m in Sources */,
+				F1F07AE71611624D00F2B197 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1F07ADD1611624D00F2B197 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F07ADE1611624D00F2B197 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1F07AE31611624D00F2B197 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F07AE41611624D00F2B197 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F1F07AE81611624D00F2B197 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F07AE91611624D00F2B197 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1F07AEB1611624D00F2B197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F1F07AEC1611624D00F2B197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F1F07AEE1611624D00F2B197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitness Apps/Fitness Apps-Prefix.pch";
+				INFOPLIST_FILE = "Fitness Apps/Fitness Apps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1F07AEF1611624D00F2B197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitness Apps/Fitness Apps-Prefix.pch";
+				INFOPLIST_FILE = "Fitness Apps/Fitness Apps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1F07AC81611624D00F2B197 /* Build configuration list for PBXProject "Fitness Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F07AEB1611624D00F2B197 /* Debug */,
+				F1F07AEC1611624D00F2B197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F07AED1611624D00F2B197 /* Build configuration list for PBXNativeTarget "Fitness Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F07AEE1611624D00F2B197 /* Debug */,
+				F1F07AEF1611624D00F2B197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F07AC51611624D00F2B197 /* Project object */;
+}
