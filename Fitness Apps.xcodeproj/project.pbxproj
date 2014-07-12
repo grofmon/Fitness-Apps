@@ -12,8 +12,9 @@
 		F1F07ADF1611624D00F2B197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1F07ADD1611624D00F2B197 /* InfoPlist.strings */; };
 		F1F07AE11611624D00F2B197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F07AE01611624D00F2B197 /* main.m */; };
 		F1F07AE51611624D00F2B197 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F1F07AE31611624D00F2B197 /* Credits.rtf */; };
-		F1F07AE71611624D00F2B197 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F1F07AE61611624D00F2B197 /* AppDelegate.applescript */; };
+		F1F07AE71611624D00F2B197 /* Fitness Apps.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F1F07AE61611624D00F2B197 /* Fitness Apps.applescript */; };
 		F1F07AEA1611624D00F2B197 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F07AE81611624D00F2B197 /* MainMenu.xib */; };
+		F1F07AF51611633F00F2B197 /* Fitness Apps.icns in Resources */ = {isa = PBXBuildFile; fileRef = F1F07AF41611633F00F2B197 /* Fitness Apps.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		F1F07AE01611624D00F2B197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1F07AE21611624D00F2B197 /* Fitness Apps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitness Apps-Prefix.pch"; sourceTree = "<group>"; };
 		F1F07AE41611624D00F2B197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F1F07AE61611624D00F2B197 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		F1F07AE61611624D00F2B197 /* Fitness Apps.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = "Fitness Apps.applescript"; sourceTree = "<group>"; };
 		F1F07AE91611624D00F2B197 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F1F07AF41611633F00F2B197 /* Fitness Apps.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Fitness Apps.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +50,13 @@
 		F1F07AC31611624D00F2B197 = {
 			isa = PBXGroup;
 			children = (
+				F1F07AF41611633F00F2B197 /* Fitness Apps.icns */,
 				F1F07ADA1611624D00F2B197 /* Fitness Apps */,
 				F1F07AD11611624D00F2B197 /* Frameworks */,
 				F1F07ACF1611624D00F2B197 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		F1F07ACF1611624D00F2B197 /* Products */ = {
 			isa = PBXGroup;
@@ -85,7 +89,7 @@
 		F1F07ADA1611624D00F2B197 /* Fitness Apps */ = {
 			isa = PBXGroup;
 			children = (
-				F1F07AE61611624D00F2B197 /* AppDelegate.applescript */,
+				F1F07AE61611624D00F2B197 /* Fitness Apps.applescript */,
 				F1F07AE81611624D00F2B197 /* MainMenu.xib */,
 				F1F07ADB1611624D00F2B197 /* Supporting Files */,
 			);
@@ -130,7 +134,7 @@
 		F1F07AC51611624D00F2B197 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = taolam;
 			};
 			buildConfigurationList = F1F07AC81611624D00F2B197 /* Build configuration list for PBXProject "Fitness Apps" */;
@@ -158,6 +162,7 @@
 				F1F07ADF1611624D00F2B197 /* InfoPlist.strings in Resources */,
 				F1F07AE51611624D00F2B197 /* Credits.rtf in Resources */,
 				F1F07AEA1611624D00F2B197 /* MainMenu.xib in Resources */,
+				F1F07AF51611633F00F2B197 /* Fitness Apps.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1F07AE11611624D00F2B197 /* main.m in Sources */,
-				F1F07AE71611624D00F2B197 /* AppDelegate.applescript in Sources */,
+				F1F07AE71611624D00F2B197 /* Fitness Apps.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +212,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -236,7 +240,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -297,6 +300,7 @@
 				F1F07AEF1611624D00F2B197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
