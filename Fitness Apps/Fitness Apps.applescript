@@ -28,7 +28,7 @@ script AppDelegate
 				end if
 			end repeat
 			tell application "Numbers"
-				close document "Fitness Log 2014" saving ask
+				close document "Fitness Log 2015" saving ask
 			end tell
 		else
 			set theResult to "true"
@@ -40,7 +40,7 @@ script AppDelegate
 			end repeat
 			tell application "Numbers"
 				activate
-				open "Users:monty:Dropbox:Personal:Fitness:Logs:Fitness Log 2014.numbers"
+				open "Users:monty:Dropbox:Personal:Fitness:Logs:Fitness Log 2015.numbers"
 			end tell
 			tell application "Safari" to open location "http://connect.garmin.com/dashboard"
 		end if
